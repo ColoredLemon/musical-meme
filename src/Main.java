@@ -40,7 +40,18 @@ public class Main {
 
         //uniqueThreeDigitNumbers();
 
+        //printing off numbers from 1 to 99
+        printNumbers();
 
+
+    }
+    //problem 48
+    public static void printNumbers() {
+        for (int i = 1; i <= 99; i++) {
+            if (i % 2 != 0) {
+                System.out.println(i);
+            }
+        }
     }
 
        public static void uniqueThreeDigitNumbers(){
